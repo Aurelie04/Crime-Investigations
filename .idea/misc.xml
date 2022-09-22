@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/ProjectAndroid/CriminalApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/ProjectAndroid/CriminalApp/app/src/main/res/layout/fragment_crime.xml" value="0.2" />
+        <entry key="..\:/ProjectAndroid/CriminalApp/app/src/main/res/layout/fragment_crime_list.xml" value="0.1" />
+        <entry key="..\:/ProjectAndroid/CriminalApp/app/src/main/res/layout/list_item_crime.xml" value="0.2" />
       </map>
     </option>
   </component>

@@ -6,19 +6,11 @@ import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends SingleFragmentActivity {
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_frame);
-
-        FragmentManager fm = getSupportFragmentManager();
-
-        Fragment fragment = fm.findFragmentById(R.id.fragment_container_view_tag);
-        if(fragment==null){
-            fragment = new CrimeFragment();
-            fm.beginTransaction().add(R.id.fragment_container_view_tag,fragment).commit();
-        }
+    protected Fragment createdFragment() {
+        return new CrimeFragment();
     }
 }
